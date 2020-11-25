@@ -1,27 +1,27 @@
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
-  Index:
+  主页:
     url: /
     icon: fas fa-home
-  Tags:
+  标签:
     url: /tags
     icon: fas fa-tags
-  Categories:
+  分类:
     url: /categories
     icon: fas fa-bookmark
-  Archives:
+  时间线:
     url: /archives
     icon: fas fa-archive
-  About:
+  关于:
     url: /about
     icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+  #Contact:
+  #  url: /contact
+  #  icon: fas fa-comments
+  #Friends:
+  #  url: /friends
+  #  icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -43,9 +43,9 @@ menu:
 # 站点运行开始时间.
 time:
   enable: false
-  year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  year: 2020 # 年份
+  month: 11 # 月份
+  date: 24 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -132,8 +132,8 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/blinkfox
-  email: 1181062873@qq.com
+  github:  https://github.com/joydamn
+  email: joydamn@gmail.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
   qq: 1181062873
@@ -204,14 +204,14 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  career: 搬砖人
+  introduction: 好好活着比什么都重要，珍惜每一个美好。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: flase
   data:
     hexo-theme-matery:
       icon: fas fa-file-alt
@@ -233,7 +233,7 @@ myProjects:
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: true
+  enable: false
   data:
     Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
