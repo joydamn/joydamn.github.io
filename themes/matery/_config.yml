@@ -13,6 +13,9 @@ menu:
   时间线:
     url: /archives
     icon: fas fa-archive
+  相册:
+    url: /gallery
+    icon: fas fa-images
   关于:
     url: /about
     icon: fas fa-user-circle
@@ -204,7 +207,7 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: 搬砖人
+  career: 生科搬砖人/业余摄影师/数码产品爱好者/GEM粉丝/Vlogger
   introduction: 好好活着比什么都重要，珍惜每一个美好。
 
 # config my projects informations in about page.
@@ -260,9 +263,18 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+    - https://focusstudio.gitee.io/blogimg/img/0E5589F4-7E9C-4810-A34B-EADCEF143CE2%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/IMG_5819%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/IMG_5818%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/IMG_5624%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/IMG_5588%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/IMG_5565%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/IMG_5292%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/IMG_5290%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/IMG_5027%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/IMG_4898%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/D9317214-05FF-46ED-B847-74FB907260FF%20(Large).JPG
+    - https://focusstudio.gitee.io/blogimg/img/2B2F7885-DC39-48B3-A099-4A4E8BF4228A%20(Large).JPG
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
